@@ -1,0 +1,10 @@
+The Quartz API
+
+The key interfaces in Quartz API are:
+
+- Scheduler - the main API for interacting with the scheduler.
+- Job - an interface to be implemented by components that you wish to have executed by the scheduler.
+- JobDetail - used to define instance of Jobs.
+- Trigger - a component that defines the schedule upon which a given job will be executed.
+- JobBuilder - used to build JobDetails instances which define instances of Jobs
+- TriggerBuilder - used to define/build Trigger instances.
